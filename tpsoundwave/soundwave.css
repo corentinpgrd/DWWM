@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* paramètres généraux */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2f303a ;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+/* début header discover */
+
+.top{
+    height: 150px;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logotitre{
+    display: flex;
+    align-items: center;
+    /* margin-right: 23%; */
+    /* padding-left: 10px; */
+    
+    
+}
+.logotop{
+    margin: 2%;
+}
+h1{
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    margin: 10%;
+    font-size: 1.25rem;
+}
+
+/* fin header discover */
+
+
+/*début main discover*/
+.middiscover{
+    height: 509px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.textmid{
+    font-size: 1.25rem;
+}
+
+.droite_middiscover{
+    width: 22%;
+    height:  60%;
+    margin-right: 10%;  
+}
+.albumdroite{
+    height: 100%;
+    width: 100%;
+}
+
+.gauche_middiscover{
+    margin-left: 10%;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    width: 80%;
+}
+
+.logo_middiscover{
+    display: flex;
+}
+.carre{
+    background-color:#202027;
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logomid{
+    height: 35px;
+    width: 35px;
+    padding-top: 5px;
+}
+
+
+
+
+/* fin main discover*/
+/* début footer discover */
+footer{
+    background-color:#202027;
+    width: 100%;
+    height: 80px;
+}
+
+.botdiscover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.footergauche{
+    display: flex;
+    margin-right:20%;
+}
+
+.footerdroite{
+    display: flex;
+}
+.botdiscover p{
+    margin-right:15%;
+}
+i{
+    color:#ffffff;
+}
+.footerlogo{
+    margin-right: 5%;
+}
+
+/*fin footer discover*/
+/*fin de la page discover*/
+
+
+/*début de la page index*
+/* le header de la page index et le même que pour discover */
+
+/*début du main index*/
+.midindex{
+    height: 589px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.gaucheindex{
+    margin-right: 10%;
+    margin-left: 10%
+}
+
+.droiteindex{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+   
+}
+.leftimg{
+    display: flex;
+    height: 400px;
+   
+    
+}
+.girl{
+    width: 350px;
+    height: 493px;
+   
+}
+
+.titreindex{
+    width: 550px;
+    font-weight: 400;
+    font-size: 3.375rem;
+    margin-bottom: 10px;
+}
+.textmid_index{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.btn{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: #1762a7;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.bouton{
+   
+    width: 180px;
+    background-color: #1762a7;
+    border: none;
+    border-radius: 15px; 
+}
+.textbtn{
+    padding-top: 11.8px;
+}
+
+/*fin de la page INdex*/
+
+
+/* début rejoindre */
+
+.midrejoindre{
+    width: 100%;
+    height: 509px;
+    display: flex;
+}
+.gaucherejoindre{
+    width: 50%;
+    height: 509px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    
+}
+
+.textrejoindre{
+    margin-left: 8%;
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+strong{
+    color: #bc3a80 ;
+    font-weight: bold;
+}
+
+
+.droiterejoindre{
+    width: 50%;
+    height: 100%;
+    display: flex;
+   
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.forminter{
+    height: 75%;
+    width :75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    background-color: #202027;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    
+}
+
+.caseform{
+    width: 80%;
+    height: 20%;
+    padding-top: 5%;
+ }
+ input{
+    width: 100%;
+    height: 55%;
+    background-color: #20202700;
+    color:#ffffff;
+    border-radius: 5px;
+    border: 2px solid rgb(39, 41, 53);
+    
+ }
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.bouton2{
+    background-color: #1762a7;
+    /* height: 40px; */
+    display: flex;
+    align-items: center;
+    
+    
+}
+.btn2{
+    margin-top: 10%;
+    height: 10%;
+    width:80% ;
+    background-color: #1762a7;
+    border: 1px solid #1762a7; 
+    border-radius: 10px ;   
+    display: flex;
+    justify-content: center;
+}
+
+
+/* fin rejoindre */
+
+
+
+
+@media screen and (max-width: 780px){
+	body{
+    background-color: #000d9a ;
+} 
+}
